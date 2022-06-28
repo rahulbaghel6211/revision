@@ -1,0 +1,106 @@
+
+
+Q No.1 What is !important
+
+Ans.The !important rule in CSS is used to add more importance to a property/value than normal.
+
+
+
+Q No.2 What is box model
+
+Ans.The CSS box model is essentially a box that wraps around every HTML element.
+ It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model
+
+
+ Q No.3 What is the difference between position absolute, relative and fixed?
+
+Ans.relative - The element's position is adjusted relative to itself, without changing layout 
+(and thus leaving a gap for the element where it would have been had it not been positioned).
+
+absolute - The element is removed from the flow of the page and positioned at a specified
+ position relative to its closest positioned ancestor if any, or otherwise relative to the
+  initial containing block. Absolutely positioned boxes can have margins, and they do not 
+  collapse with any other margins. These elements do not affect the position of other elements.
+
+fixed - The element is removed from the flow of the page and positioned at a specified position
+ relative to the viewport and doesn't move when scrolled.
+
+
+Q No.4 What is CSS positioning?
+
+Ans. CSS position property defines the position of an element in a document. This property works with the left, right, top,
+ bottom and z-index properties to determine the final position of an element on a page.
+
+ Q No.5 the difference between display none and display hidden
+
+ Ans display:none means that the tag in question will not appear on the page at all
+     display:hidden means that unlike display:none , the tag is not visible, but space is allocated for it on the page
+
+ Q No.6 Difference between flex and grid? Where to use it?  
+ Ans CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows, 
+ unlike flexbox which is largely a one-dimensional system (either in a column or a row).
+
+ Q No.7 What is the z-index? What is the stacking context?
+
+ Ans A stacking context is a group of elements that have a common parent and move up and down the z axis together
+
+ Q No.8 Explain briefly what happens when you hit a url? explain DNS lookup
+ After you’ve typed the URL into your browser and pressed enter, the browser needs to figure out which server 
+ on the Internet to connect to. To do that, it needs to look up the IP address of the server hosting the website
+  using the domain you typed in.
+
+   Because DNS is complex and has to be blazingly fast, DNS data is cached at different
+   layers between your browser and at various places across the Internet. Your browser checks its own cache, 
+   the operating system cache, a local network cache at your router, and a DNS server cache on your corporate 
+   network or at your internet service provider (ISP). If the browser cannot find the IP address at any
+   of those cache layers, the DNS server on your corporate network or at your ISP does a recursive DNS lookup.
+
+   Q No.9 What is HTTP protocol?
+
+   Ans HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data 
+   exchange on the Web and it is a client-server protocol,which means requests are initiated by the recipient, usually the Web browser.
+
+
+   QNo.10 What is TCP Protocol?
+
+   Ans TCP stands for Transmission Control Protocol a communications standard that enables application programs
+    and computing devices to exchange messages over a network.It is designed to send packets across the internet and ensure
+     the successful delivery of data and messages over networks.
+
+   Q No.11 What are HTTP headers?
+
+   Ans.An HTTP header is a field of an HTTP request or response that passes additional context and metadata about the request or response
+
+   Q No.12 What is polling?
+
+   Ans. polling is a technique by which  a client cant ask the server for new or fresh data by priodically making API request to a server.
+
+   Q No.13 what is long polling?
+
+   Ans.HTTP Long Polling is a technique used to push information to a client as soon as possible on the server.
+    As a result, the server does not have to wait for the client to send a request. 
+   In Long Polling, the server does not close the connection once it receives a request from the client.
+
+   Q No.14 What are web sockets
+
+   Ans The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication
+    session between the user's browser and a server
+
+    Q No.15 What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?
+    Ans.Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate
+     any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+     Q No.16 What do CDN or Content Delivery Networks do? When do you need a CDN?
+     CDNs cache content like web pages, images, and video in proxy servers near to your physical location.
+      This allows you to do things like watch a movie, download software, check your bank balance, post on social media,
+      or make purchases, without having to wait for content to load. You could think of a CDN like an ATM.
+
+      Q No.17 What is the difference between Client Side Renderring and Server Side Renderring?
+      Ans.in client side Renderring the html is generated on the client side by executing js codein the browser and js engine.
+           in server side Renderring the html is generated by executing code on the server-side.
+
+
+      
+
+
+
